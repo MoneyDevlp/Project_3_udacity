@@ -24,7 +24,7 @@ jobs:
 
       - run:
           name: Build Docker images
-          command: docker-compose -f docker-compose-build.yaml build
+          command: docker-compose -f docker-compose-build.yaml build --parallel
 
       - run:
           name: Login to DockerHub
