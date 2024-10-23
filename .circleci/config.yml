@@ -21,14 +21,14 @@ jobs:
       - run:
           name: Tag and Push Docker images to DockerHub
           command: |
-            docker tag reverseproxy levantienn/reverseproxy:latest
-            docker tag udagram-api-user levantienn/udagram-api-user:latest
-            docker tag udagram-api-feed levantienn/udagram-api-feed:latest
-            docker tag udagram-frontend:local levantienn/udagram-frontend:latest
-            docker push levantienn/reverseproxy:latest
-            docker push levantienn/udagram-api-user:latest
-            docker push levantienn/udagram-api-feed:latest
-            docker push levantienn/udagram-frontend:latest
+            docker tag reverseproxy levantienn/reverseproxy:v1
+            docker tag udagram-api-user levantienn/udagram-api-user:v1
+            docker tag udagram-api-feed levantienn/udagram-api-feed:v1
+            docker tag udagram-frontend:local levantienn/udagram-frontend:v1
+            docker push levantienn/reverseproxy:v1
+            docker push levantienn/udagram-api-user:v1
+            docker push levantienn/udagram-api-feed:v1
+            docker push levantienn/udagram-frontend:v1
  
 workflows:
   version: 2
