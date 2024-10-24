@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-feed
-        image: levantienn/udagram-api-feed:v1
+        image: levantienn/udagram-api-feed:v5
         imagePullPolicy: Always 
         resources:
           requests:
