@@ -1,25 +1,31 @@
-# Screenshots
-To help review your infrastructure, please include the following screenshots in this directory::
+**1.Circle ci showing a successful build job**
 
-## Deployment Pipeline
-* DockerHub showing containers that you have pushed
-* GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
-* Travis CI showing a successful build and deploy job
+![alt text](image.png)
 
-## Kubernetes
-* To verify Kubernetes pods are deployed properly
-```bash
-kubectl get pods
-```
-* To verify Kubernetes services are properly set up
-```bash
-kubectl describe services
-```
-* To verify that you have horizontal scaling set against CPU usage
-```bash
-kubectl describe hpa
-```
-* To verify that you have set up logging with a backend application
-```bash
-kubectl logs {pod_name}
-```
+**2.DockerHub showing images that you have pushed**
+
+![alt text](image-1.png)
+
+**3.Frontend and API projects deployed in Kubernetes.**
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)

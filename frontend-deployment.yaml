@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: levantienn/udagram-frontend:v8        
+        image: levantienn/udagram-frontend:v9        
         ports:
         - containerPort: 80
