@@ -1,5 +1,5 @@
 ### Build
-FROM beevelop/ionic:update-ionic-6.16 AS ionic
+FROM beevelop/ionic:latest AS ionic
 ## Create app directory
 WORKDIR /usr/src/app
 ## Install app dependencies
@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm install -f
 ## Bundle app source
 COPY . .
-RUN ionic build
+RUN export NODE_OPTIONS=--openssl-legacy-provider && ionic build
 ### Run 
 FROM nginx:alpine
 #COPY www /usr/share/nginx/html
