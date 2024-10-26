@@ -16,8 +16,9 @@ spec:
     spec:
       containers:
       - name: backend-feed
-        image: levantienn/udagram-api-feed:v7
-        imagePullPolicy: Always
+        image: levantienn/udagram-api-feed:v8
+        ports:
+        - containerPort: 8080
         resources:
           requests:
             cpu: "250m"

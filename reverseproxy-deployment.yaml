@@ -16,15 +16,8 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: levantienn/reverseproxy:v7
+        image: levantienn/reverseproxy:v8
         imagePullPolicy: Always
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
-          limits:
-            memory: "1024Mi"
-            cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
       restartPolicy: Always

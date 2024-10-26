@@ -16,15 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: levantienn/udagram-frontend:v7
-        imagePullPolicy: Always          
+        image: levantienn/udagram-frontend:v8        
         ports:
         - containerPort: 80
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
-          limits:
-            memory: "1024Mi"
-            cpu: "500m"
-      restartPolicy: Always
