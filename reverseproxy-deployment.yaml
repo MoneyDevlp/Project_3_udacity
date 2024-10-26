@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: levantienn/reverseproxy:v5
+        image: levantienn/reverseproxy:v7
         imagePullPolicy: Always          
         resources:
           requests:

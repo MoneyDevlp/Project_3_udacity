@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: levantienn/udagram-frontend:v5
+        image: levantienn/udagram-frontend:v7
         imagePullPolicy: Always          
         ports:
         - containerPort: 80

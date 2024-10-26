@@ -14,4 +14,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: udagram-frontend:local
+    image: udagram-frontend

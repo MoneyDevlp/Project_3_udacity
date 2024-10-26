@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: levantienn/udagram-api-user:v5
+        image: levantienn/udagram-api-user:v7
         imagePullPolicy: Always  
         resources:
           requests:

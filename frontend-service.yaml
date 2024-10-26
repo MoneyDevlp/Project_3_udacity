@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: frontend
   labels:
-    run: frontend
+    service: frontend
 spec:
   ports:
   - name: "8100"
