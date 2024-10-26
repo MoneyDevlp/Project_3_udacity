@@ -17,14 +17,14 @@ spec:
       containers:
       - name: reverseproxy
         image: levantienn/reverseproxy:v7
-        imagePullPolicy: Always          
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "64Mi"
             cpu: "250m"
           limits:
             memory: "1024Mi"
-            cpu: "500m"       
+            cpu: "500m"
         ports:
         - containerPort: 80
       restartPolicy: Always
